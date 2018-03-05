@@ -1,0 +1,84 @@
+.about {
+  &__title {
+    font-size: 20px;
+    text-align: center;
+    color: #5b6ceb;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  &__text {
+    color: #555555;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+  }
+  &__gallery-wrapper {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  &__photo {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__gallery-next {
+    top: 50%;
+    right: -30px;
+    width: 70px;
+    height: 70px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-size: 100%;
+    background-image: url(../logo/next-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  &__gallery-prev {
+    top: 50%;
+    left: 42px;
+    width: 70px;
+    height: 70px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-size: 100%;
+    background-image: url(../logo/prev-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+}
+
+@media @tablet-widths {
+  .about {
+    display: flex;
+    justify-content: center;
+    &__text-wrapper {
+      width: 45%;
+      max-width: 522px;
+    }
+    &__gallery-wrapper {
+      display: flex;
+      width: 45%;
+      align-items: center;
+      margin-top: 100px;
+      max-width: 522px;
+    }
+    &__title {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media @desktop-widths {
+  .about {
+    padding-top: 60px;
+    &__title {
+      font-size: 30px;
+      text-align: left;
+      padding-left: 30px;
+    }
+  }
+}

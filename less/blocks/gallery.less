@@ -1,0 +1,48 @@
+.gallery {
+  font-size: 0;
+  padding-top: 50px;
+  &__photo {
+    width: 100%;
+  }
+  &__photo-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+  }
+  &__hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(91,108,235,0.8);
+    background-image: url(../logo/search-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.gallery__photo-wrapper:hover .gallery__hover {
+  display: block;
+}
+
+@media @tablet-widths {
+  .gallery {
+    padding-top: 50px;
+    &__photo-wrapper {
+      width: 50%;
+    }
+  }
+}
+
+@media @desktop-widths {
+  .gallery {
+    max-width: 1600px;
+    padding-top: 100px;
+    margin: 0 auto;
+    &__photo-wrapper {
+      width: 25%;
+    }
+  }
+}

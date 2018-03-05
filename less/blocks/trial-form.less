@@ -1,0 +1,134 @@
+.trial-form {
+  height: 700px;
+  background-image: url(../img/trial-background-mobile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  &__title-wrapper {
+    padding-top: 60px;
+    width: 300px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  &__title {
+    font-size: 26px;
+    margin-bottom: 14px;
+    margin-top: 45px;
+  }
+  &__promo {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 14px;
+    font-family: 'Oleo Script', cursive;
+  }
+  &__inner {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    height: 340px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.15);
+  }
+  &__header {
+    font-size: 24px;
+    color: #6a78e0;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  &__field {
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    line-height: 48px;
+    height: 48px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    width: 240px;
+    box-sizing: border-box;
+  }
+  &__submit {
+    width: 170px;
+    border: none;
+    height: 48px;
+    margin-top: 9px;
+    line-height: 48px;
+    border-radius: 8px;
+    font-weight: 700;
+    outline: none;
+    background-color: #6a78e0;
+    color: #ffffff;
+    margin-left: 100px;
+    box-shadow: 2.121px 2.121px 5px 0px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s linear;
+    &:hover {
+      color: #2e3eb9;
+      background-color: #a4aefb;
+    }
+    &:active {
+      background-color: #cccccc;
+    }
+  }
+}
+
+@media @tablet-widths {
+  .trial-form {
+    background-image: url(../img/trial-background-tablet.jpg);
+    background-size: cover;
+    &__wrapper {
+      padding-top: 230px;
+      display: flex;
+      justify-content: space-around;
+    }
+    &__inner {
+      margin: 0;
+    }
+    &__header {
+      padding-top: 0;
+    }
+    &__title {
+      font-size: 30px;
+      margin-top: 20px;
+    }
+    &__title-wrapper {
+      display: flex;
+      flex-direction: column;
+      order: 1;
+      margin: 0;
+      width: 350px;
+    }
+  }
+}
+
+@media @desktop-widths {
+  .trial-form {
+    background-image: url(../img/trial-background-desktop.jpg);
+    &__wrapper {
+      width: 800px;
+      padding-top: 210px;
+      margin: 0 auto;
+    }
+    &__title-wrapper {
+      padding-top: 0;
+      padding-left: 100px;
+      width: 400px;
+    }
+    &__title {
+      width: 500px;
+      margin-top: 50px;
+      font-size: 48px;
+    }
+    &__promo {
+      font-size: 40px;
+    }
+    &__inner {
+      height: 390px;
+    }
+    &__field {
+      margin-bottom: 25px;
+    }
+    &__header {
+      margin-top: 35px;
+    }
+  }
+}

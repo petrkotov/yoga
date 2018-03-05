@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Yoga</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <button class="header__toggle" type="button">
+          <span class="header__toggle  header__toggle--burger1"></span>
+          <span class="header__toggle  header__toggle--burger2"></span>
+          <span class="header__toggle  header__toggle--burger3"></span>
+        </button>
+        <ul class="header__list  header__list--closed">
+          <li><a class="header__list-item" href="#about">About us</a></li>
+          <li><a class="header__list-item" href="#trial">Reservation</a></li>
+          <li><a class="header__list-item" href="#gallery">Gallery</a></li>
+          <li class="header__list-item  header__list-item--logo"><a href="index.html"></a></li>
+          <li><a class="header__list-item" href="#blog">Blog</a></li>
+          <li><a class="header__list-item" href="#elements">Elements</a></li>
+          <li><a class="header__list-item" href="#shop">Shop</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="trial-form"><a name="trial"></a>
+        <div class="trial-form__wrapper">
+          <div class="trial-form__title-wrapper">
+            <h2 class="trial-form__title">JUST BALANCE<br> YOUR MIND & BODY</h2>
+            <h3 class="trial-form__promo">Create the healthy living<br> for yourself</h3>
+          </div>
+          <form class="trial-form__inner" method="post" action="#">
+            <h3 class="trial-form__header">Trial Class</h3>
+            <input type="text" id="name" name="name" placeholder="Enter your name" class="trial-form__field">
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone" class="trial-form__field">
+            <select class="trial-form__field" style="color:grey" onchange="this.style.color='black'">
+              <option value="" style="display:none">Chose your class</option>
+              <option value="1">First class</option>
+              <option value="2">Second class</option>
+              <option value="3">Third class</option>
+              <option value="4">Fourth class</option>
+            </select>
+            <button class="trial-form__submit" type="submit">Try it</button>
+          </form>
+        </div>
+      </section>
+      <section class="class">
+        <h3 class="class__title">YOGA FEATURE PROGRAMM</h3>
+        <h3 class="class__promo">Our Classes</h3>
+        <div class="class__wrapper">
+          <div class="class__window">
+            <img src="img/promo-1.jpg" class="class__photo" alt="photo">
+            <h4 class="class__window-title">YOGA FOR HEALTH</h4>
+            <p class="class__text">Minim veniam, quis nostrud exercitation ullamco laboris nisi
+               ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <p class="class__sign">Ashtanga - Hatha</p>
+          </div>
+          <div class="class__window">
+            <img src="img/promo-2.jpg" class="class__photo" alt="photo">
+            <h4 class="class__window-title">YOGA FOR LOSE WEIGHT</h4>
+            <p class="class__text">Minim veniam, quis nostrud exercitation ullamco laboris nisi
+               ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <p class="class__sign">Ashtanga - Hatha</p>
+          </div>
+          <div class="class__window">
+            <img src="img/promo-3.jpg" class="class__photo" alt="photo">
+            <h4 class="class__window-title">YOGA FOR CHILDREN</h4>
+            <p class="class__text">Minim veniam, quis nostrud exercitation ullamco laboris nisi
+               ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <p class="class__sign">Ashtanga - Hatha</p>
+          </div>
+          <div class="class__window">
+            <img src="img/promo-4.jpg" class="class__photo" alt="photo">
+            <h4 class="class__window-title">YOGA FOR ELDERLY</h4>
+            <p class="class__text">Minim veniam, quis nostrud exercitation ullamco laboris nisi
+               ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <p class="class__sign">Ashtanga - Hatha</p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery"><a name="gallery"></a>
+        <div class="gallery__wrapper">
+          <a href="#" class="gallery__photo-wrapper"><img src="img/gallery-1.jpg" class="gallery__photo" alt="gallery"><div class="gallery__hover"></div></a>
+          <a href="#" class="gallery__photo-wrapper"><img src="img/gallery-2.jpg" class="gallery__photo" alt="gallery"><div class="gallery__hover"></div></a>
+          <a href="#" class="gallery__photo-wrapper"><img src="img/gallery-3.jpg" class="gallery__photo" alt="gallery"><div class="gallery__hover"></div></a>
+          <a href="#" class="gallery__photo-wrapper"><img src="img/gallery-4.jpg" class="gallery__photo" alt="gallery"><div class="gallery__hover"></div></a>
+          <a href="#" class="gallery__photo-wrapper"><img src="img/gallery-5.jpg" class="gallery__photo" alt="gallery"><div class="gallery__hover"></div></a>
+          <a href="#" class="gallery__photo-wrapper"><img src="img/gallery-6.jpg" class="gallery__photo" alt="gallery"><div class="gallery__hover"></div></a>
+          <a href="#" class="gallery__photo-wrapper"><img src="img/gallery-7.jpg" class="gallery__photo" alt="gallery"><div class="gallery__hover"></div></a>
+          <a href="#" class="gallery__photo-wrapper"><img src="img/gallery-8.jpg" class="gallery__photo" alt="gallery"><div class="gallery__hover"></div></a>
+        </div>
+      </section>
+      <section class="about"><a name="about"></a>
+        <div class="about__text-wrapper">
+          <h3 class="about__title">ABOUT US</h3>
+          <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>
+        </div>
+        <div class="about__gallery-wrapper">
+          <span class="about__gallery-next"></span>
+          <img src="img/photo-about.jpg" class="about__photo" alt="gallery">
+          <span class="about__gallery-prev"></span>
+        </div>
+      </section>
+      <section class="features"><a name="elements"></a>
+        <div class="features__wrapper">
+          <div class="features__item">
+            <img src="logo/advantages-logo-1.png" class="features__logo" alt="advantages">
+            <p class="features__title">IMPROVED OVERALL HEALTH</p>
+            <p class="features__text">Enim ad minim veniam, quis nostrud
+              exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+          </div>
+          <div class="features__item">
+            <img src="logo/advantages-logo-2.png" class="features__logo" alt="advantages">
+            <p class="features__title">INCREASED CONCENTRATION</p>
+            <p class="features__text">Enim ad minim veniam, quis nostrud
+              exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+          </div>
+          <div class="features__item">
+            <img src="logo/advantages-logo-3.png" class="features__logo" alt="advantages">
+            <p class="features__title">DALANCE YOUR MIND</p>
+            <p class="features__text">Enim ad minim veniam, quis nostrud
+              exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+          </div>
+          <div class="features__item">
+            <img src="logo/advantages-logo-4.png" class="features__logo" alt="advantages">
+            <p class="features__title">SLEEP BETTER</p>
+            <p class="features__text">Enim ad minim veniam, quis nostrud
+              exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+          </div>
+          <div class="features__item">
+            <img src="logo/advantages-logo-5.png" class="features__logo" alt="advantages">
+            <p class="features__title">WEIGHT LOSS</p>
+            <p class="features__text">Enim ad minim veniam, quis nostrud
+              exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+          </div>
+          <div class="features__item">
+            <img src="logo/advantages-logo-6.png" class="features__logo" alt="advantages">
+            <p class="features__title">STRENGTHENS YOUR BONES</p>
+            <p class="features__text">Enim ad minim veniam, quis nostrud
+              exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+          </div>
+          <div class="features__item">
+            <img src="logo/advantages-logo-7.png" class="features__logo" alt="advantages">
+            <p class="features__title">INCREASED FLEXIBILITY</p>
+            <p class="features__text">Enim ad minim veniam, quis nostrud
+              exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+          </div>
+          <div class="features__item">
+            <img src="logo/advantages-logo-8.png" class="features__logo" alt="advantages">
+            <p class="features__title">LOWER BLOOD PRESSURE</p>
+            <p class="features__text">Enim ad minim veniam, quis nostrud
+              exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+          </div>
+        </div>
+      </section>
+      <section class="price"><a name="shop"></a>
+        <div class="price__wrapper">
+          <div class="price__items-wrapper">
+            <div class="price__item">
+              <a class="price__buy-btn" href="#">Buy now</a>
+              <div class="price__label">
+                <p class="price__symbol">$</p><p class="price__amount">49</p><p class="price__dur">/ MONTH</p>
+              </div>
+              <p class="price__date">ENTRY DATE: MON — FRI</p>
+              <p class="price__time">ENTRY TIME: 8A.M — 8P.M</p>
+              <p class="price__advice">NUTRION ADVICER: NO</p>
+            </div>
+            <div class="price__item">
+              <a class="price__buy-btn" href="#">Buy now</a>
+              <div class="price__label">
+                <p class="price__symbol">$</p><p class="price__amount">69</p><p class="price__dur">/ MONTH</p>
+              </div>
+              <p class="price__date">ENTRY DATE: MON — FRI</p>
+              <p class="price__time">ENTRY TIME: 8A.M — 8P.M</p>
+              <p class="price__advice">NUTRION ADVICER: YES</p>
+            </div>
+            <div class="price__item">
+              <a class="price__buy-btn" href="#">Buy now</a>
+              <div class="price__label">
+                <p class="price__symbol">$</p><p class="price__amount">99</p><p class="price__dur">/ MONTH</p>
+              </div>
+              <p class="price__date">ENTRY DATE: MON — SUN</p>
+              <p class="price__time">ENTRY TIME: 8A.M — 8P.M</p>
+              <p class="price__advice">NUTRION ADVICER: YES</p>
+            </div>
+          </div>
+          <div class="price__comment-wrapper"><a name="blog"></a>
+            <div class="price__present-comment">
+              <span class="price__present-comment-border">
+                <img src="img/comment-photo.jpg" class="price__comment-photo" alt="photo">
+              </span>
+              <i class="price__comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</i>
+              <p class="price__autor-post">Trainer</p>
+              <p class="price__autor-name">Laura Shepard</p>
+            </div>
+            <div class="price__next-comment">
+              <img src="img/next-photo.jpg" class="price__next-photo" alt="photo">
+              <p class="price__next-autor-name">Sara Taylor</p>
+              <p class="price__next-autor-post">Trainer</p>
+            </div>
+            <div class="price__toggles">
+              <input class="price__comment-input" type="radio" name="comment" id="comment-input-1" checked>
+              <label class="price__toggle" for="comment-input-1"></label>
+              <input class="price__comment-input" type="radio" name="comment" id="comment-input-2">
+              <label class="price__toggle" for="comment-input-2"></label>
+              <input class="price__comment-input" type="radio" name="comment" id="comment-input-3">
+              <label class="price__toggle" for="comment-input-3"></label>
+              <input class="price__comment-input" type="radio" name="comment" id="comment-input-4">
+              <label class="price__toggle" for="comment-input-4"></label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__about">
+          <p class="footer__title">ABOUT</p>
+          <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              m inim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip
+              ex ea commodo consequat.</p>
+          <div class="footer__social">
+            <a class="footer__social-item  footer__social-item--ptrst" href="https://pinterest.com"></a>
+            <a class="footer__social-item  footer__social-item--twt" href="https://twitter.com"></a>
+            <a class="footer__social-item  footer__social-item--fb" href="https://facebook.com"></a>
+            <a class="footer__social-item  footer__social-item--gp" href="https://plus.google.com"></a>
+            <a class="footer__social-item  footer__social-item--inst" href="https://instagram.com"></a>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__title">CONTACT US</p>
+          <a class="footer__contacts-item  footer__social-item--adress" href="#">5419 Joseph Mountains<br>Apt. 716</a>
+          <div class="footer__phone-wrapper">
+            <a class="footer__contacts-item  footer__social-item--phone" href="tel:+123456789">+1 234 567 89</a>
+            <a class="footer__contacts-item" href="tel:+123467890">+1 234 678 90</a>
+          </div>
+          <a class="footer__contacts-item  footer__social-item--mail" href="mailto:joga.info@example.com">joga.info@example.com</a>
+          <a class="footer__contacts-item  footer__social-item--site" href="https://example.com">www.example.com</a>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">Copyright © 2016-2017 Yoga classes</p>
+        <p class="footer__copyright-logo">dZENcode</p>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

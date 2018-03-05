@@ -1,0 +1,116 @@
+.class {
+  font-size: 0;
+  &__title {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: #5b6ceb;
+  }
+  &__promo {
+    text-align: center;
+    color: #777777;
+    font-size: 24px;
+    margin-top: 15px;
+    font-family: 'Oleo Script', cursive;
+    margin-bottom: 45px;
+  }
+  &__photo {
+    position: absolute;
+    left: -130px;
+    top: 0;
+    overflow: hidden;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+  }
+  &__window {
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    padding-top: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  &__window-title {
+    color: #777777;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  &__text {
+    color: #555555;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  &__sign {
+    color: #999999;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media @tablet-widths {
+  .class {
+    &__title {
+      font-size: 25px;
+      margin-top: 45px;
+    }
+    &__wrapper {
+      width: 680px;
+      margin: 0 auto;
+    }
+    &__window {
+      display: inline-block;
+      margin: 0 auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media @desktop-widths {
+  .class {
+    &__window {
+      padding-top: 0;
+      padding-left: 270px;
+      margin: 0;
+      height: 300px;
+      margin-left: 0.75%;
+      margin-right: 0.75%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    &__wrapper {
+      width: 1180px;
+    }
+    &__photo {
+      border-top-right-radius: 0;
+      left: -180px;
+    }
+    &__window-title {
+      padding-top: 40px;
+      padding-left: 30px;
+    }
+    &__text {
+      padding-left: 30px;
+    }
+    &__sign {
+      padding-left: 30px;
+    }
+    &__title {
+      font-size: 30px;
+      margin-top: 100px;
+    }
+    &__promo {
+      font-size: 40px;
+      margin-top: 30px;
+      margin-bottom: 70px;
+    }
+  }
+}
