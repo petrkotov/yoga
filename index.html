@@ -37,9 +37,9 @@
           </div>
           <form class="trial-form__inner" method="post" action="#">
             <h3 class="trial-form__header">Trial Class</h3>
-            <input type="text" id="name" name="name" placeholder="Enter your name" class="trial-form__field">
-            <input type="text" id="phone" name="phone" placeholder="Enter your phone" class="trial-form__field">
-            <select class="trial-form__field" style="color:grey" onchange="this.style.color='black'">
+            <input type="text" id="name" name="name" placeholder="Enter your name" class="trial-form__field" required>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone" class="trial-form__field" required>
+            <select class="trial-form__field" style="color:grey" onchange="this.style.color='black'" required>
               <option value="" style="display:none">Chose your class</option>
               <option value="1">First class</option>
               <option value="2">Second class</option>
