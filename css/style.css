@@ -414,8 +414,8 @@
   .footer__social-item--adress {
     order: 1;
     padding-top: 0;
-    padding-right: 100px;
-    padding-bottom: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
   }
   .footer__social-item--phone {
     padding-top: 0;
